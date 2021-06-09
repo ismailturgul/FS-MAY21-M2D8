@@ -1,0 +1,40 @@
+:root {
+  --serif: "EB Garamond", serif;
+  --sans-serif: "Montserrat", sans-serif;
+}
+body {
+  font-family: var(--sans-serif);
+}
+.container-fluid {
+  background-color: rgb(246, 243, 243);
+  text-align: bottom;
+}
+.card-title {
+  width: 100%;
+  height: 20px;
+}
+
+body .card-text {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+body .card .btn.btn-primary:hover {
+  background-color: snow !important;
+  color: blue !important;
+}
+
+span {
+  font-size: 28px;
+  font-weight: 540;
+}
+
+body .card .btn.btn-primary {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
